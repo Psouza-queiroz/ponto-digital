@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2e1f3c;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+ }
+ nav a {
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+    padding: 0.65em 3em;
+ }
+body{
+    background-image: url(../imagens/fundo-azul.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: #00376d;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+}
