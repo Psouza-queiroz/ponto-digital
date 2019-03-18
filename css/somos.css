@@ -34,11 +34,29 @@ a{
     text-decoration: none; 
 }
 
-.login{
+
+#historia{
+
     display: flex;
-    align-items: flex-end;
-    font-size: 1.5em;
-    overflow: hidden;
-    position: relative;
+    color: #fff;
+    justify-content: space-around;
+     
+    
 }
 
+#historia h1{
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    left: 875px;
+}
+#historia p{
+    margin-top: 40px;
+    display:flex;
+    text-align: center;
+}
